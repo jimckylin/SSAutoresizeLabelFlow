@@ -2,7 +2,7 @@
 ![](https://raw.githubusercontent.com/immrss/SSAutoresizeLabelFlow/master/DemoGif.gif)
 
 ## Usage
-* **Initilize** （Initilize the view using `SSAutoresizeLabelFlowConfig` or default configuration.The block will be call back when you select the label.）
+
 ```objective-c
 self.automaticallyAdjustsScrollViewInsets = NO;
 SSAutoresizeLabelFlowConfig *config = [SSAutoresizeLabelFlowConfig shareConfig];
@@ -14,31 +14,8 @@ self.flow = [[SSAutoresizeLabelFlow alloc]initWithFrame:CGRectMake(10, 100, [UIS
 }];
 [self.view addSubview:self.flow]; 
 ```
-* **Insert**
-```objective-c
-[self.flow insertLabelWithTitle:@"Taylor Swift" atIndex:1 animated:YES];
-```
-```objective-c
-NSMutableIndexSet *set = [NSMutableIndexSet indexSet];
-[set addIndex:1];
-[set addIndex:3];
-[self.flow insertLabelsWithTitles:@[@"Taylor Swift",@"Lana Del Rey"] atIndexes:set animated:YES];
-```
-* **Delete**
-```objective-c
-[self.flow deleteLabelAtIndex:1 animated:YES];
-```
-```objective-c
-NSMutableIndexSet *set = [NSMutableIndexSet indexSet];
-[set addIndex:1];
-[set addIndex:3];
-[self.flow deleteLabelsAtIndexes:set animated:YES];
-```
-* **Reload**
-```objective-c
-NSArray *array = @[@"Akon",@"Bob Dylan",@"Chris Brown",@"Eminem",@"James Blunt",@"Jason Mraz",@"Jay-Z",@"John Lennon",@"Justin Timberlake",@"Robbie Williams",@"Sam Smith",@"Usher",@"Justin Bieber"];
-[self.flow reloadAllWithTitles:array];
-```
+See the Demo for more information.
+
 ## License
 The project is available under the MIT license.
 
