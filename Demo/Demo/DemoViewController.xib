@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoViewController">
+            <connections>
+                <outlet property="animatedSwitch" destination="lba-Yd-kuZ" id="nh5-sr-2uo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0O-1P-TMp">
+                    <rect key="frame" x="20" y="450" width="43" height="30"/>
+                    <state key="normal" title="insert"/>
+                    <connections>
+                        <action selector="insert:" destination="-1" eventType="touchUpInside" id="nGL-rs-pl8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4S-Nl-8AJ">
+                    <rect key="frame" x="20" y="500" width="43" height="30"/>
+                    <state key="normal" title="delete"/>
+                    <connections>
+                        <action selector="delete:" destination="-1" eventType="touchUpInside" id="YKy-6F-ZhV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDY-8o-kMh">
+                    <rect key="frame" x="20" y="550" width="43" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="43" id="qeY-oF-m9w"/>
+                        <constraint firstAttribute="height" constant="30" id="uVV-lD-vaV"/>
+                    </constraints>
+                    <state key="normal" title="reload"/>
+                    <connections>
+                        <action selector="reload:" destination="-1" eventType="touchUpInside" id="oix-zG-uVe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAo-Jf-ceT">
+                    <rect key="frame" x="163" y="450" width="100" height="30"/>
+                    <state key="normal" title="batch insert"/>
+                    <connections>
+                        <action selector="batchInsert:" destination="-1" eventType="touchUpInside" id="Inz-zY-BVJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3g-WN-Hgu">
+                    <rect key="frame" x="163" y="500" width="100" height="30"/>
+                    <state key="normal" title="batch delete"/>
+                    <connections>
+                        <action selector="batchDelete:" destination="-1" eventType="touchUpInside" id="Fz4-6u-MQy"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="animated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejy-oX-nuL">
+                    <rect key="frame" x="163" y="550" width="100" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="lMh-4k-boF"/>
+                        <constraint firstAttribute="width" constant="100" id="ro1-73-tGE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lba-Yd-kuZ">
+                    <rect key="frame" x="264" y="549" width="51" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="Q81-oI-O4e"/>
+                        <constraint firstAttribute="height" constant="31" id="Rav-GG-fhV"/>
+                    </constraints>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="x3g-WN-Hgu" firstAttribute="leading" secondItem="vAo-Jf-ceT" secondAttribute="leading" id="3Ik-m7-Urm"/>
+                <constraint firstItem="ejy-oX-nuL" firstAttribute="height" secondItem="x3g-WN-Hgu" secondAttribute="height" id="6Cl-Ul-liF"/>
+                <constraint firstItem="ejy-oX-nuL" firstAttribute="leading" secondItem="x3g-WN-Hgu" secondAttribute="leading" id="8Nr-q6-e05"/>
+                <constraint firstItem="ejy-oX-nuL" firstAttribute="leading" secondItem="MDY-8o-kMh" secondAttribute="trailing" constant="100" id="BUm-xt-EtP"/>
+                <constraint firstItem="MDY-8o-kMh" firstAttribute="height" secondItem="r4S-Nl-8AJ" secondAttribute="height" id="Bub-Z7-tN0"/>
+                <constraint firstAttribute="bottom" secondItem="ejy-oX-nuL" secondAttribute="bottom" constant="20" id="IGZ-ey-2IW"/>
+                <constraint firstItem="MDY-8o-kMh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="IPT-sP-JmH"/>
+                <constraint firstItem="MDY-8o-kMh" firstAttribute="leading" secondItem="r4S-Nl-8AJ" secondAttribute="leading" id="Jzc-ne-Pnd"/>
+                <constraint firstItem="x3g-WN-Hgu" firstAttribute="top" secondItem="vAo-Jf-ceT" secondAttribute="bottom" constant="20" id="K27-Xq-aDV"/>
+                <constraint firstAttribute="bottom" secondItem="MDY-8o-kMh" secondAttribute="bottom" constant="20" id="POm-10-9iV"/>
+                <constraint firstAttribute="bottom" secondItem="lba-Yd-kuZ" secondAttribute="bottom" constant="20" id="PWn-QS-2xV"/>
+                <constraint firstItem="r4S-Nl-8AJ" firstAttribute="top" secondItem="b0O-1P-TMp" secondAttribute="bottom" constant="20" id="Q46-9F-OaA"/>
+                <constraint firstItem="MDY-8o-kMh" firstAttribute="top" secondItem="r4S-Nl-8AJ" secondAttribute="bottom" constant="20" id="RZn-YE-SCP"/>
+                <constraint firstItem="MDY-8o-kMh" firstAttribute="width" secondItem="r4S-Nl-8AJ" secondAttribute="width" id="T4f-4j-fbM"/>
+                <constraint firstItem="x3g-WN-Hgu" firstAttribute="width" secondItem="vAo-Jf-ceT" secondAttribute="width" id="WjJ-tb-HtR"/>
+                <constraint firstItem="r4S-Nl-8AJ" firstAttribute="leading" secondItem="b0O-1P-TMp" secondAttribute="leading" id="lXC-N8-4f1"/>
+                <constraint firstItem="r4S-Nl-8AJ" firstAttribute="width" secondItem="b0O-1P-TMp" secondAttribute="width" id="n6G-NL-ZtO"/>
+                <constraint firstItem="lba-Yd-kuZ" firstAttribute="leading" secondItem="ejy-oX-nuL" secondAttribute="trailing" constant="1" id="nhX-Go-TRD"/>
+                <constraint firstItem="ejy-oX-nuL" firstAttribute="width" secondItem="x3g-WN-Hgu" secondAttribute="width" id="rss-0f-OeH"/>
+                <constraint firstItem="x3g-WN-Hgu" firstAttribute="height" secondItem="vAo-Jf-ceT" secondAttribute="height" id="sML-bM-ZwX"/>
+                <constraint firstItem="ejy-oX-nuL" firstAttribute="top" secondItem="x3g-WN-Hgu" secondAttribute="bottom" constant="20" id="sds-4a-0a9"/>
+                <constraint firstItem="r4S-Nl-8AJ" firstAttribute="height" secondItem="b0O-1P-TMp" secondAttribute="height" id="tDk-aV-0Ga"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
