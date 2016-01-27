@@ -15,12 +15,12 @@
 		6F0C04161C5625F90032E658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0C04141C5625F90032E658 /* LaunchScreen.storyboard */; };
 		6F0C04211C5625F90032E658 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C04201C5625F90032E658 /* DemoTests.m */; };
 		6F0C042C1C5625F90032E658 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C042B1C5625F90032E658 /* DemoUITests.m */; };
-		6F0C04421C5626110032E658 /* SSAutoresizeLabelFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C043B1C5626110032E658 /* SSAutoresizeLabelFlow.m */; };
-		6F0C04431C5626110032E658 /* SSAutoresizeLabelFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C043D1C5626110032E658 /* SSAutoresizeLabelFlowCell.m */; };
-		6F0C04441C5626110032E658 /* SSAutoresizeLabelFlowConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C043F1C5626110032E658 /* SSAutoresizeLabelFlowConfig.m */; };
-		6F0C04451C5626110032E658 /* SSAutoresizeLabelFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C04411C5626110032E658 /* SSAutoresizeLabelFlowLayout.m */; };
 		6F0C04511C5627960032E658 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C044F1C5627960032E658 /* DemoViewController.m */; };
 		6F0C04521C5627960032E658 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F0C04501C5627960032E658 /* DemoViewController.xib */; };
+		6F0C063B1C58ADBA0032E658 /* SSAutoresizeLabelFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C06341C58ADBA0032E658 /* SSAutoresizeLabelFlow.m */; };
+		6F0C063C1C58ADBA0032E658 /* SSAutoresizeLabelFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C06361C58ADBA0032E658 /* SSAutoresizeLabelFlowCell.m */; };
+		6F0C063D1C58ADBA0032E658 /* SSAutoresizeLabelFlowConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C06381C58ADBA0032E658 /* SSAutoresizeLabelFlowConfig.m */; };
+		6F0C063E1C58ADBA0032E658 /* SSAutoresizeLabelFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C063A1C58ADBA0032E658 /* SSAutoresizeLabelFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,17 +57,17 @@
 		6F0C04271C5625F90032E658 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0C042B1C5625F90032E658 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		6F0C042D1C5625F90032E658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F0C043A1C5626110032E658 /* SSAutoresizeLabelFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAutoresizeLabelFlow.h; sourceTree = "<group>"; };
-		6F0C043B1C5626110032E658 /* SSAutoresizeLabelFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAutoresizeLabelFlow.m; sourceTree = "<group>"; };
-		6F0C043C1C5626110032E658 /* SSAutoresizeLabelFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAutoresizeLabelFlowCell.h; sourceTree = "<group>"; };
-		6F0C043D1C5626110032E658 /* SSAutoresizeLabelFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAutoresizeLabelFlowCell.m; sourceTree = "<group>"; };
-		6F0C043E1C5626110032E658 /* SSAutoresizeLabelFlowConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAutoresizeLabelFlowConfig.h; sourceTree = "<group>"; };
-		6F0C043F1C5626110032E658 /* SSAutoresizeLabelFlowConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAutoresizeLabelFlowConfig.m; sourceTree = "<group>"; };
-		6F0C04401C5626110032E658 /* SSAutoresizeLabelFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAutoresizeLabelFlowLayout.h; sourceTree = "<group>"; };
-		6F0C04411C5626110032E658 /* SSAutoresizeLabelFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAutoresizeLabelFlowLayout.m; sourceTree = "<group>"; };
 		6F0C044E1C5627960032E658 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		6F0C044F1C5627960032E658 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		6F0C04501C5627960032E658 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		6F0C06331C58ADBA0032E658 /* SSAutoresizeLabelFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAutoresizeLabelFlow.h; sourceTree = "<group>"; };
+		6F0C06341C58ADBA0032E658 /* SSAutoresizeLabelFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAutoresizeLabelFlow.m; sourceTree = "<group>"; };
+		6F0C06351C58ADBA0032E658 /* SSAutoresizeLabelFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAutoresizeLabelFlowCell.h; sourceTree = "<group>"; };
+		6F0C06361C58ADBA0032E658 /* SSAutoresizeLabelFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAutoresizeLabelFlowCell.m; sourceTree = "<group>"; };
+		6F0C06371C58ADBA0032E658 /* SSAutoresizeLabelFlowConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAutoresizeLabelFlowConfig.h; sourceTree = "<group>"; };
+		6F0C06381C58ADBA0032E658 /* SSAutoresizeLabelFlowConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAutoresizeLabelFlowConfig.m; sourceTree = "<group>"; };
+		6F0C06391C58ADBA0032E658 /* SSAutoresizeLabelFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAutoresizeLabelFlowLayout.h; sourceTree = "<group>"; };
+		6F0C063A1C58ADBA0032E658 /* SSAutoresizeLabelFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAutoresizeLabelFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		6F0C04051C5625F90032E658 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				6F0C04391C5626110032E658 /* Class */,
+				6F0C06321C58ADBA0032E658 /* SSAutoresizeLabelFlow */,
 				6F0C04091C5625F90032E658 /* AppDelegate.h */,
 				6F0C040A1C5625F90032E658 /* AppDelegate.m */,
 				6F0C040C1C5625F90032E658 /* ViewController.h */,
@@ -161,19 +161,20 @@
 			path = DemoUITests;
 			sourceTree = "<group>";
 		};
-		6F0C04391C5626110032E658 /* Class */ = {
+		6F0C06321C58ADBA0032E658 /* SSAutoresizeLabelFlow */ = {
 			isa = PBXGroup;
 			children = (
-				6F0C043A1C5626110032E658 /* SSAutoresizeLabelFlow.h */,
-				6F0C043B1C5626110032E658 /* SSAutoresizeLabelFlow.m */,
-				6F0C043C1C5626110032E658 /* SSAutoresizeLabelFlowCell.h */,
-				6F0C043D1C5626110032E658 /* SSAutoresizeLabelFlowCell.m */,
-				6F0C043E1C5626110032E658 /* SSAutoresizeLabelFlowConfig.h */,
-				6F0C043F1C5626110032E658 /* SSAutoresizeLabelFlowConfig.m */,
-				6F0C04401C5626110032E658 /* SSAutoresizeLabelFlowLayout.h */,
-				6F0C04411C5626110032E658 /* SSAutoresizeLabelFlowLayout.m */,
+				6F0C06331C58ADBA0032E658 /* SSAutoresizeLabelFlow.h */,
+				6F0C06341C58ADBA0032E658 /* SSAutoresizeLabelFlow.m */,
+				6F0C06351C58ADBA0032E658 /* SSAutoresizeLabelFlowCell.h */,
+				6F0C06361C58ADBA0032E658 /* SSAutoresizeLabelFlowCell.m */,
+				6F0C06371C58ADBA0032E658 /* SSAutoresizeLabelFlowConfig.h */,
+				6F0C06381C58ADBA0032E658 /* SSAutoresizeLabelFlowConfig.m */,
+				6F0C06391C58ADBA0032E658 /* SSAutoresizeLabelFlowLayout.h */,
+				6F0C063A1C58ADBA0032E658 /* SSAutoresizeLabelFlowLayout.m */,
 			);
-			path = Class;
+			name = SSAutoresizeLabelFlow;
+			path = ../../SSAutoresizeLabelFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,12 +310,12 @@
 			files = (
 				6F0C040E1C5625F90032E658 /* ViewController.m in Sources */,
 				6F0C040B1C5625F90032E658 /* AppDelegate.m in Sources */,
-				6F0C04431C5626110032E658 /* SSAutoresizeLabelFlowCell.m in Sources */,
+				6F0C063D1C58ADBA0032E658 /* SSAutoresizeLabelFlowConfig.m in Sources */,
+				6F0C063B1C58ADBA0032E658 /* SSAutoresizeLabelFlow.m in Sources */,
+				6F0C063C1C58ADBA0032E658 /* SSAutoresizeLabelFlowCell.m in Sources */,
 				6F0C04081C5625F90032E658 /* main.m in Sources */,
-				6F0C04451C5626110032E658 /* SSAutoresizeLabelFlowLayout.m in Sources */,
 				6F0C04511C5627960032E658 /* DemoViewController.m in Sources */,
-				6F0C04421C5626110032E658 /* SSAutoresizeLabelFlow.m in Sources */,
-				6F0C04441C5626110032E658 /* SSAutoresizeLabelFlowConfig.m in Sources */,
+				6F0C063E1C58ADBA0032E658 /* SSAutoresizeLabelFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +539,7 @@
 				6F0C04321C5625F90032E658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F0C04331C5625F90032E658 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +548,7 @@
 				6F0C04351C5625F90032E658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F0C04361C5625F90032E658 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +557,7 @@
 				6F0C04381C5625F90032E658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
