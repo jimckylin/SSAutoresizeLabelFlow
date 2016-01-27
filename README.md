@@ -1,5 +1,5 @@
 # SSAutoresizeLabelFlow 
-![](https://raw.githubusercontent.com/immrss/SSAutoresizeLabelFlow/master/DemoGif.gif)
+![](https://raw.githubusercontent.com/immrss/SSAutoresizeLabelFlow/master/Demo.gif)
 
 ## Usage
 
